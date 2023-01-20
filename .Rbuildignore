@@ -1,0 +1,13 @@
+^\.Rproj\.user$
+^\.git$
+^.*\.Rproj$
+^shiny\.sh$
+^shiny\.cmd$
+^run\.R$
+^\.gitignore$
+^smoketests$
+^res$
+^staticdocs$
+^srcjs$
+^.*\.o$
+^tmp$
