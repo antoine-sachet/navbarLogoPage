@@ -1,12 +1,12 @@
-Package: shinyhelpr
+Package: navbarLogoPage
 Type: Package
-Title: Helper functions for shiny
+Title: A navbar page with a logo for Shiny apps.
 Version: 1.0
 Authors@R: c(
     person("Antoine", "Sachet", role = c("aut", "cre"), email = "antoine@soundout.com"),
     person("SoundOut Ltd", role = "cph")
     )
-Description: Misc. helper functions for shiny.
+Description: A navbar page with a logo for Shiny apps.
 License: GPL-3 | file LICENSE
 Imports:
     shiny,
