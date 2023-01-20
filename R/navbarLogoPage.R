@@ -12,7 +12,7 @@
 #'
 #' @param title The title to display in the navbar
 #' @param logo Path (or URL) to logo file
-#' @param logo_padding Padding in pixel around the logo. A vector `c(vertical, horizontal)`. Useful to adjust the logo size.
+#' @param logo_css String with CSS style. Useful to adjust the logo size by tweaking the padding.
 #' @param favicon Path (relative or absolute) to favicon file. URLs not supported.
 #' @param shinyproxy Whether the app is running embedded in shinyproxy.
 #'   If TRUE, the logo acts as a link to the app list, a "sign out" button is

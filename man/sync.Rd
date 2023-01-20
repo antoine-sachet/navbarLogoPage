@@ -4,8 +4,13 @@
 \alias{sync}
 \title{Keeps shiny inputs in sync (e.g. across tabs)}
 \usage{
-sync(reactives_to_sync, input_ids, update_function,
-  update_arg = "selected", ...)
+sync(
+  reactives_to_sync,
+  input_ids,
+  update_function,
+  update_arg = "selected",
+  ...
+)
 }
 \arguments{
 \item{reactives_to_sync}{Reactives that should always have the same value

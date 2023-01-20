@@ -4,13 +4,25 @@
 \alias{navbarLogoPage}
 \title{Create a page with a top level navigation bar with logo and favicon.}
 \usage{
-navbarLogoPage(title, logo, ..., id = NULL, selected = NULL,
-  favicon = NULL, shinyproxy = "auto",
-  shinyproxy_admin_roles = character(0), logo_padding = c(4, 6),
+navbarLogoPage(
+  title,
+  logo,
+  ...,
+  id = NULL,
+  selected = NULL,
+  favicon = NULL,
+  shinyproxy = "auto",
+  shinyproxy_admin_roles = character(0),
+  logo_css = "padding: 4px 6px;",
   position = c("fixed-top", "static-top", "fixed-bottom"),
-  header = NULL, footer = NULL, inverse = FALSE,
-  collapsible = TRUE, fluid = TRUE, theme = NULL,
-  windowTitle = title)
+  header = NULL,
+  footer = NULL,
+  inverse = FALSE,
+  collapsible = TRUE,
+  fluid = TRUE,
+  theme = NULL,
+  windowTitle = title
+)
 }
 \arguments{
 \item{title}{The title to display in the navbar}
@@ -40,7 +52,7 @@ Defaults to "auto" which detects whether SHINYPROXY_USERNAME is set.}
 
 \item{shinyproxy_admin_roles}{Character of user roles to be treated as admin. Not case sensitive. See details.}
 
-\item{logo_padding}{Padding in pixel around the logo. A vector `c(vertical, horizontal)`. Useful to adjust the logo size.}
+\item{logo_css}{String with CSS style. Useful to adjust the logo size by tweaking the padding.}
 
 \item{position}{Determines whether the navbar should be displayed at the top
 of the page with normal scrolling behavior (\code{"static-top"}), pinned at
